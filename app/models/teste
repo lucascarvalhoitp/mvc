@@ -96,11 +96,8 @@ curl -X PATCH 'https://qazpuvilwxvwlojburit.supabase.co/rest/v1/clientes?some_co
 curl 'https://qazpuvilwxvwlojburit.supabase.co/rest/v1/clientes?select=*' \
 -H "apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhenB1dmlsd3h2d2xvamJ1cml0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyMTU5NzksImV4cCI6MjA5NDc5MTk3OX0.cK6XYSQVrTI4JTw7e3sUX-cJbUlMgTVISduL2bZ-bIA" \
 -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhenB1dmlsd3h2d2xvamJ1cml0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyMTU5NzksImV4cCI6MjA5NDc5MTk3OX0.cK6XYSQVrTI4JTw7e3sUX-cJbUlMgTVISduL2bZ-bIA"
-          
+        
 
-curl -X DELETE 'https://qazpuvilwxvwlojburit.supabase.co/rest/v1/clientes?some_column=eq.someValue' \
--H "apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhenB1dmlsd3h2d2xvamJ1cml0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyMTU5NzksImV4cCI6MjA5NDc5MTk3OX0.cK6XYSQVrTI4JTw7e3sUX-cJbUlMgTVISduL2bZ-bIA" \
--H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhenB1dmlsd3h2d2xvamJ1cml0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyMTU5NzksImV4cCI6MjA5NDc5MTk3OX0.cK6XYSQVrTI4JTw7e3sUX-cJbUlMgTVISduL2bZ-bIA"
 
 url -X DELETE 'https://qazpuvilwxvwlojburit.supabase.co/rest/v1/clientes?some_column=eq.someValue' \
 -H "apikey:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFhenB1dmlsd3h2d2xvamJ1cml0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzkyMTU5NzksImV4cCI6MjA5NDc5MTk3OX0.cK6XYSQVrTI4JTw7e3sUX-cJbUlMgTVISduL2bZ-bIA" \
