@@ -29,6 +29,7 @@ class Controller
     }
 }
 */
+namespace App\Core;
 
 class Controller{
 
