@@ -1,7 +1,7 @@
 <?php
 namespace App\Core;
 
-use App\Controllers\HomeController;
+
 use App\Controllers\HttpErrorController;
 
 class Router {

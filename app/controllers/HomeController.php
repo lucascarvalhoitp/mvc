@@ -2,6 +2,7 @@
 namespace App\Controllers;
 
 use App\Core\Controller;
+use App\Core\Database;
 use App\Models\Usuario;
 
 class HomeController extends Controller
@@ -11,6 +12,8 @@ class HomeController extends Controller
         $usuario = new Usuario();
         $data = $usuario->getUserData();
 
+        $database = new Database();
+        $database->connect();
         // Retornar a view de home
         $this->view('home/index', $data);
     }
